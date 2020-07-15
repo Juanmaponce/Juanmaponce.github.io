@@ -1,18 +1,18 @@
 var data = [
-    { id: '', type: 'replay', color: '#3498DB', text: 'Toman solteros', ikon: '' },
-    { id: '', type: 'replay', color: '#169ed8', text: 'Verdad o reto', ikon: '' },
-    { id: '', type: 'replay', color: '#1d61ac', text: 'Cambio de lugares', ikon: '' },
-    { id: '', type: 'replay', color: '#209b6c', text: 'Elegir pico' },
-    { id: '', type: 'replay', color: '#60b236', text: 'Shot' },
-    { id: '', type: 'replay', color: '#efe61f', text: 'Pico izquierda' },
-    { id: '', type: 'replay', color: '#f7a416', text: 'Repartir 5 tragos', ikon: '' },
-    { id: '', type: 'replay', color: '#e6471d', text: 'Toman hombres' },
-    { id: '', type: 'replay', color: '#dc0936', text: 'Toman mujeres' },
-    { id: '', type: 'replay', color: '#e5177b', text: 'Yo Nunca', ikon: '' },
-    { id: '', type: 'replay', color: '#be107f', text: 'Tengo un amigo que' },
-    { id: '', type: 'replay', color: '#881f7e', text: 'Shot + 3 vueltas' },
-    { id: '', type: 'replay' ,color: '#3f297e', text: 'Sexo en la mesa' },
-    { id: '', type: 'replay', color: '#000000', text: 'Matar a un jubilado', ikon: '' }
+    { id: '', type: 'replay', color: '#18cbcc ', text: 'Espaldas',},
+    { id: '', type: 'replay', color: '#169ed8', text: 'Verdad o reto',},
+    { id: '', type: 'replay', color: '#1d61ac', text: 'Cambio de lugares',},
+    { id: '', type: 'replay', color: '#209b6c', text: 'Elegir pico'},
+    { id: '', type: 'replay', color: '#60b236', text: 'Shot'},
+    { id: '', type: 'replay', color: '#efe61f', text: 'Pico izquierda'},
+    { id: '', type: 'replay', color: '#f7a416', text: 'Repartir 5 tragos'},
+    { id: '', type: 'replay', color: '#e6471d', text: 'Toman hombres'},
+    { id: '', type: 'replay', color: '#dc0936', text: 'Toman mujeres'},
+    { id: '', type: 'replay', color: '#e5177b', text: 'Yo Nunca',},
+    { id: '', type: 'replay', color: '#be107f', text: 'Tengo un amigo que'},
+    { id: '', type: 'replay', color: '#881f7e', text: 'Shot + 3 vueltas'},
+    { id: '', type: 'replay' ,color: '#5A009C', text: 'Pasar el hielo'},
+    { id: '', type: 'replay', color: '#3f297e', text: 'Regla',}
 ];
 
 var RouletteWheel = function(el, items){
@@ -62,7 +62,7 @@ RouletteWheel.prototype.spin = function(_index){
             //easing: [20, 7],
             //easing: [200, 20],
             easing: 'easeOutQuint',
-            duration: 15000,
+            duration: 10000,
             begin: $.proxy(_onAnimationBegin,this),
             complete: $.proxy(_onAnimationComplete,this)
         });
