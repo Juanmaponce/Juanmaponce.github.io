@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Material+Icons|Work+Sans:400,700,900");
 body {
     overflow: hidden;
+    background-color: khaki;
 }
 
 .roulette {

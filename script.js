@@ -1,33 +1,18 @@
 var data = [
-    { id: '', color: '#3f297e', text: 'ALL IN', ikon: 'invert_colors' },
-
-    //ALDRO AQUI PUEDES MODIFICAR LOS PREMIOS. En el apartado text colocar el premio de cada sección. Si necesitas modificar la velocidad hay un atributo llamado duration más adelante que puedes modificar también.
-    { id: '', type: 'allin', color: '#1b87e6', text: 'Tequila QP', ikon: '' },
-    { id: '', type: 'allin', color: '#1b87e6', text: 'Tequila QP', ikon: '' },
-    //Modificar Premio Tequila QP
-    { id: '', type: 'allin', color: '#1b87e6', text: 'Tequila QP', ikon: '' },
-    // Modificar Premio Beats
-    { id: '', type: 'quiz', color: '#DA33FF', text: 'Beats' },
-    // Modificar Premio Airpods
-    { id: '', type: 'quiz', color: '#1b87e6', text: 'Airpods' },
-    // Modificar Premio Tarjeta
-    { id: '', type: 'quiz', color: '#1b3380', text: 'Tarjeta' },
-    // Modificar Premio Beats - 2
-    { id: '', color: '#1b87e6', text: 'Beats QP', ikon: '' },
-    // Modificar Premio Airpods - 2
-    { id: '', color: '#1b3380', text: 'Airpods' },
-    // Modificar Premio Tequila QP - 2
-    { id: '', color: '#1b87e6', text: 'Tequila QP' },
-    // Modificar Premio Dashboard
-    { id: '', type: 'time', color: '#1b3380', text: 'Dashboard', ikon: '' },
-    // Modificar premio Netflix
-    { id: '', type: 'question', color: '#1b87e6', text: 'Netflix' },
-    // Modificar premio Cine QP
-    { id: '', color: '#1b3380', text: 'Cine QP' },
-    // Modificar premio Airpods - 2
-    { id: '', color: '#1b87e6', text: 'Airpods' },
-    // Modificar premio Jugar de nuevo
-    { id: '', type: 'replay', color: '#1b3380', text: 'Todos Toman', ikon: '' }
+    { id: '', type: 'replay', color: '#3498DB', text: 'Toman solteros', ikon: '' },
+    { id: '', type: 'replay', color: '#169ed8', text: 'Verdad o reto', ikon: '' },
+    { id: '', type: 'replay', color: '#1d61ac', text: 'Cambio de lugares', ikon: '' },
+    { id: '', type: 'replay', color: '#209b6c', text: 'Elegir pico' },
+    { id: '', type: 'replay', color: '#60b236', text: 'Shot' },
+    { id: '', type: 'replay', color: '#efe61f', text: 'Pico izquierda' },
+    { id: '', type: 'replay', color: '#f7a416', text: 'Repartir 5 tragos', ikon: '' },
+    { id: '', type: 'replay', color: '#e6471d', text: 'Toman hombres' },
+    { id: '', type: 'replay', color: '#dc0936', text: 'Toman mujeres' },
+    { id: '', type: 'replay', color: '#e5177b', text: 'Yo Nunca', ikon: '' },
+    { id: '', type: 'replay', color: '#be107f', text: 'Tengo un amigo que' },
+    { id: '', type: 'replay', color: '#881f7e', text: 'Shot + 3 vueltas' },
+    { id: '', type: 'replay' ,color: '#3f297e', text: 'Sexo en la mesa' },
+    { id: '', type: 'replay', color: '#000000', text: 'Matar a un jubilado', ikon: '' }
 ];
 
 var RouletteWheel = function(el, items){
