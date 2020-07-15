@@ -26,7 +26,7 @@ var RouletteWheel = function(el, items){
     }
 }
 
-//_.extend(RouletteWheel.prototype, Backbone.Events);
+
 
 RouletteWheel.prototype.spin = function(_index){
 
